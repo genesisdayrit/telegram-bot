@@ -26,7 +26,7 @@ lint-fix:  ## Fix linting issues
 	uv run ruff format app/
 
 test:  ## Run tests
-	uv run pytest
+	uv run python -m pytest tests/ -v
 
 # =============================================================================
 # Webhook Management
